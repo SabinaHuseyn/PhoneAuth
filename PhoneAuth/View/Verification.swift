@@ -54,7 +54,7 @@ struct Verification: View {
                     Text("Didn't receive code?")
                         .foregroundColor(.gray)
                     
-                    Button(action: loginData.verifyCode) {
+                    Button(action: loginData.sendCode) {
                         Text("Request Again")
                             .fontWeight(.bold)
                             .foregroundColor(.black)
