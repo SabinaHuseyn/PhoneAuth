@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1243CF4D2805CA5AD52F383A /* Pods_PhoneAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FBF4B9AB6912D62A511630 /* Pods_PhoneAuth.framework */; };
+		1D7E8B84275DF9C800692301 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E8B83275DF9C800692301 /* GoogleService-Info.plist */; };
+		1D7E8B87275E147B00692301 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E8B86275E147B00692301 /* AlertView.swift */; };
+		1D7E8B89275E572C00692301 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E8B88275E572C00692301 /* Home.swift */; };
+		1DAA50D0275D6F0B0070092F /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA50CF275D6F0B0070092F /* Verification.swift */; };
+		1DAA50D2275D7A270070092F /* CustomNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA50D1275D7A270070092F /* CustomNumberPad.swift */; };
 		1DB4C4F5275C1EE600E2CCF5 /* PhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4C4F4275C1EE600E2CCF5 /* PhoneAuthApp.swift */; };
 		1DB4C4F7275C1EE600E2CCF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4C4F6275C1EE600E2CCF5 /* ContentView.swift */; };
 		1DB4C4F9275C1EE800E2CCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4C4F8275C1EE800E2CCF5 /* Assets.xcassets */; };
 		1DB4C4FC275C1EE800E2CCF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4C4FB275C1EE800E2CCF5 /* Preview Assets.xcassets */; };
+		1DB4C504275C286B00E2CCF5 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4C503275C286B00E2CCF5 /* Login.swift */; };
+		1DB4C507275C2CC000E2CCF5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4C506275C2CC000E2CCF5 /* LoginViewModel.swift */; };
+		1DB4C50A275C328D00E2CCF5 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4C509275C328D00E2CCF5 /* Countries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7E8B83275DF9C800692301 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D7E8B85275DFA8D00692301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D7E8B86275E147B00692301 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		1D7E8B88275E572C00692301 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1DAA50CF275D6F0B0070092F /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		1DAA50D1275D7A270070092F /* CustomNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberPad.swift; sourceTree = "<group>"; };
 		1DB4C4F1275C1EE600E2CCF5 /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB4C4F4275C1EE600E2CCF5 /* PhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthApp.swift; sourceTree = "<group>"; };
 		1DB4C4F6275C1EE600E2CCF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DB4C4F8275C1EE800E2CCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB4C4FB275C1EE800E2CCF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DB4C503275C286B00E2CCF5 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1DB4C506275C2CC000E2CCF5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1DB4C509275C328D00E2CCF5 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		5AD76A4232B3C45410A321B4 /* Pods-PhoneAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		87FBF4B9AB6912D62A511630 /* Pods_PhoneAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E234883ACB0FC61DA3636399 /* Pods-PhoneAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1243CF4D2805CA5AD52F383A /* Pods_PhoneAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +59,8 @@
 			children = (
 				1DB4C4F3275C1EE600E2CCF5 /* PhoneAuth */,
 				1DB4C4F2275C1EE600E2CCF5 /* Products */,
+				2D0F9982B352B9EE78611A31 /* Pods */,
+				5DAC70BA6B272E77379D8B4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +75,15 @@
 		1DB4C4F3275C1EE600E2CCF5 /* PhoneAuth */ = {
 			isa = PBXGroup;
 			children = (
+				1DB4C508275C327B00E2CCF5 /* Model */,
+				1DB4C505275C2CA600E2CCF5 /* ViewModel */,
+				1DB4C502275C280C00E2CCF5 /* View */,
 				1DB4C4F4275C1EE600E2CCF5 /* PhoneAuthApp.swift */,
 				1DB4C4F6275C1EE600E2CCF5 /* ContentView.swift */,
 				1DB4C4F8275C1EE800E2CCF5 /* Assets.xcassets */,
 				1DB4C4FA275C1EE800E2CCF5 /* Preview Content */,
+				1D7E8B85275DFA8D00692301 /* Info.plist */,
+				1D7E8B83275DF9C800692301 /* GoogleService-Info.plist */,
 			);
 			path = PhoneAuth;
 			sourceTree = "<group>";
@@ -67,6 +96,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1DB4C502275C280C00E2CCF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4C503275C286B00E2CCF5 /* Login.swift */,
+				1DAA50CF275D6F0B0070092F /* Verification.swift */,
+				1DAA50D1275D7A270070092F /* CustomNumberPad.swift */,
+				1D7E8B86275E147B00692301 /* AlertView.swift */,
+				1D7E8B88275E572C00692301 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DB4C505275C2CA600E2CCF5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4C506275C2CC000E2CCF5 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DB4C508275C327B00E2CCF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4C509275C328D00E2CCF5 /* Countries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D0F9982B352B9EE78611A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD76A4232B3C45410A321B4 /* Pods-PhoneAuth.debug.xcconfig */,
+				E234883ACB0FC61DA3636399 /* Pods-PhoneAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DAC70BA6B272E77379D8B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF4B9AB6912D62A511630 /* Pods_PhoneAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DB4C4FF275C1EE800E2CCF5 /* Build configuration list for PBXNativeTarget "PhoneAuth" */;
 			buildPhases = (
+				01C842D89DD7A60E1A71E962 /* [CP] Check Pods Manifest.lock */,
 				1DB4C4ED275C1EE600E2CCF5 /* Sources */,
 				1DB4C4EE275C1EE600E2CCF5 /* Frameworks */,
 				1DB4C4EF275C1EE600E2CCF5 /* Resources */,
+				58C0DF3D1D0A14EE331B2341 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +203,68 @@
 			files = (
 				1DB4C4FC275C1EE800E2CCF5 /* Preview Assets.xcassets in Resources */,
 				1DB4C4F9275C1EE800E2CCF5 /* Assets.xcassets in Resources */,
+				1D7E8B84275DF9C800692301 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C842D89DD7A60E1A71E962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C0DF3D1D0A14EE331B2341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DB4C4ED275C1EE600E2CCF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DAA50D0275D6F0B0070092F /* Verification.swift in Sources */,
+				1DB4C507275C2CC000E2CCF5 /* LoginViewModel.swift in Sources */,
+				1DB4C504275C286B00E2CCF5 /* Login.swift in Sources */,
 				1DB4C4F7275C1EE600E2CCF5 /* ContentView.swift in Sources */,
+				1D7E8B89275E572C00692301 /* Home.swift in Sources */,
+				1DB4C50A275C328D00E2CCF5 /* Countries.swift in Sources */,
+				1D7E8B87275E147B00692301 /* AlertView.swift in Sources */,
 				1DB4C4F5275C1EE600E2CCF5 /* PhoneAuthApp.swift in Sources */,
+				1DAA50D2275D7A270070092F /* CustomNumberPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +389,7 @@
 		};
 		1DB4C500275C1EE800E2CCF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD76A4232B3C45410A321B4 /* Pods-PhoneAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,11 +399,14 @@
 				DEVELOPMENT_TEAM = VDUH7U8HTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +422,7 @@
 		};
 		1DB4C501275C1EE800E2CCF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E234883ACB0FC61DA3636399 /* Pods-PhoneAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,11 +432,14 @@
 				DEVELOPMENT_TEAM = VDUH7U8HTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
